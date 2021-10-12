@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 596 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <path d="M590.28,2C591.934,2 593.28,3.346 593.28,5L593.28,325.643C593.28,327.297 591.934,328.643 590.28,328.643L5,328.643C3.346,328.643 2,327.297 2,325.643L2,5C2,3.346 3.346,2 5,2L590.28,2M590.28,0L5,0C2.25,0 0,2.25 0,5L0,325.643C0,328.393 2.25,330.643 5,330.643L590.28,330.643C593.03,330.643 595.28,328.393 595.28,325.643L595.28,5C595.28,2.25 593.03,0 590.28,0Z" style="fill:rgb(69,69,69);fill-rule:nonzero;"/>
+    <path d="M268.361,303.149C268.361,303.983 267.678,304.666 266.844,304.666L191.173,304.666C190.339,304.666 189.656,303.983 189.656,303.149L189.656,290.39C189.656,289.556 190.339,288.873 191.173,288.873L266.844,288.873C267.678,288.873 268.361,289.556 268.361,290.39L268.361,303.149Z" style="fill:rgb(161,218,222);fill-opacity:0.65;fill-rule:nonzero;"/>
+    <path d="M359.861,303.149C359.861,303.983 359.178,304.666 358.343,304.666L282.673,304.666C281.839,304.666 281.156,303.983 281.156,303.149L281.156,290.39C281.156,289.556 281.839,288.873 282.673,288.873L358.343,288.873C359.178,288.873 359.861,289.556 359.861,290.39L359.861,303.149Z" style="fill:rgb(161,218,222);fill-opacity:0.65;fill-rule:nonzero;"/>
+    <path d="M455.861,303.149C455.861,303.983 455.178,304.666 454.343,304.666L378.673,304.666C377.838,304.666 377.155,303.983 377.155,303.149L377.155,290.39C377.155,289.556 377.838,288.873 378.673,288.873L454.343,288.873C455.178,288.873 455.861,289.556 455.861,290.39L455.861,303.149Z" style="fill:rgb(161,218,222);fill-opacity:0.65;fill-rule:nonzero;"/>
+    <path d="M352.658,71.782L431.957,155.643" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2px;"/>
+    <path d="M352.658,71.782L273.361,156.244" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2px;"/>
+    <path d="M273.361,155.643L326.226,240.106" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2px;"/>
+    <path d="M273.361,155.643L220.497,240.106" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:2px;"/>
+    <g>
+        <path d="M273.361,161.479C270.142,161.479 267.524,158.86 267.524,155.641C267.524,152.423 270.143,149.805 273.361,149.805C276.579,149.805 279.198,152.423 279.198,155.641C279.199,158.861 276.58,161.479 273.361,161.479Z" style="fill-rule:nonzero;"/>
+        <path d="M273.361,151.117C275.86,151.117 277.886,153.143 277.886,155.641C277.886,158.141 275.86,160.167 273.361,160.167C270.861,160.167 268.836,158.141 268.836,155.641C268.836,153.143 270.861,151.117 273.361,151.117M273.361,148.493C269.419,148.493 266.212,151.7 266.212,155.641C266.212,159.583 269.419,162.791 273.361,162.791C277.303,162.791 280.51,159.583 280.51,155.641C280.511,151.7 277.304,148.493 273.361,148.493Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <circle cx="431.957" cy="155.642" r="5.127" style="fill:rgb(161,218,222);stroke:black;stroke-width:1.22px;"/>
+    <circle cx="326.226" cy="240.105" r="5.127" style="fill:rgb(161,218,222);stroke:black;stroke-width:1.22px;"/>
+    <circle cx="220.497" cy="240.105" r="5.127" style="fill:rgb(161,218,222);stroke:black;stroke-width:1.22px;"/>
+    <circle cx="352.658" cy="72.707" r="5.128" style="fill:white;stroke:black;stroke-width:1.26px;"/>
+    <g>
+        <rect x="32.422" y="25.333" width="416.578" height="35.333" style="fill:none;"/>
+        <g transform="matrix(0.9799,0,0,1,32.4224,35.0835)">
+            <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:13px;">Example: A simple taptree with 3 leaves.</text>
+        </g>
+    </g>
+    <g>
+        <rect x="73.721" y="291.643" width="396.332" height="48" style="fill:none;"/>
+        <g transform="matrix(0.9799,0,0,1,74.6011,299.893)">
+            <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:11px;">tp(</text>
+            <g transform="matrix(1,0,0,1,19.803,0)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Regular', 'Roboto Mono';font-size:11px;">pk_internal</text>
+            </g>
+            <g transform="matrix(1,0,0,1,92.413,0)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:11px;">, [[ts(pk(keyA)), ts(pk(keyB))], ts(pk(keyC))])</text>
+            </g>
+        </g>
+    </g>
+    <path d="M220.497,252L220.497,280.75" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+    <path d="M326.226,252L326.226,280.75" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+    <path d="M431.957,169.5L431.957,280.75" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+    <path d="M190.656,285.5L190.656,282.75C190.656,281.65 191.556,280.75 192.656,280.75L267.361,280.75C268.461,280.75 269.361,281.65 269.361,282.75L269.361,285.5" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+    <path d="M281.156,285.5L281.156,282.75C281.156,281.65 282.056,280.75 283.156,280.75L357.861,280.75C358.961,280.75 359.861,281.65 359.861,282.75L359.861,285.5" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+    <path d="M377.156,285.5L377.156,282.75C377.156,281.65 378.056,280.75 379.156,280.75L453.861,280.75C454.961,280.75 455.861,281.65 455.861,282.75L455.861,285.5" style="fill:none;fill-rule:nonzero;stroke:black;stroke-opacity:0.66;stroke-width:0.5px;"/>
+</svg>

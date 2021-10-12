@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 596 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="Artboard1" transform="matrix(0.465078,0,0,0.459167,0,0)">
+        <rect x="0" y="0" width="1280" height="720" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="0" y="0" width="1280" height="720"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M590.28,2C591.934,2 593.28,3.346 593.28,5L593.28,325.643C593.28,327.297 591.934,328.643 590.28,328.643L5,328.643C3.346,328.643 2,327.297 2,325.643L2,5C2,3.346 3.346,2 5,2L590.28,2M590.28,0L5,0C2.25,0 0,2.25 0,5L0,325.643C0,328.393 2.25,330.643 5,330.643L590.28,330.643C593.03,330.643 595.28,328.393 595.28,325.643L595.28,5C595.28,2.25 593.03,0 590.28,0Z" style="fill:rgb(69,69,69);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M209,94.666C209,96.316 207.65,97.666 206,97.666L97,97.666C95.35,97.666 94,96.316 94,94.666L94,73C94,71.35 95.35,70 97,70L206,70C207.65,70 209,71.35 209,73L209,94.666Z" style="fill:rgb(161,218,222);fill-opacity:0.65;fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M573.999,94.666C573.999,96.316 572.649,97.666 570.999,97.666L220.667,97.666C219.017,97.666 217.667,96.316 217.667,94.666L217.667,73C217.667,71.35 219.017,70 220.667,70L571,70C572.65,70 574,71.35 574,73L574,94.666L573.999,94.666Z" style="fill:rgb(161,218,222);fill-opacity:0.65;fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="32.422" y="25.333" width="416.578" height="50.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,69.7139,76.4069)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:13px;">MuSig Overview</text>
+                <g transform="matrix(1,0,0,1,0,15.6)">
+                    <text x="0px" y="0px" style="font-family:'RobotoMono-Light', 'Roboto Mono';font-weight:300;font-size:13px;">Interactive Key Generation &amp; Signing</text>
+                </g>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="96.944" y="73.875" width="111.155" height="23.832" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,288.121,178.041)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">Pubkey</text>
+                <g transform="matrix(1,0,0,1,-12.602,12.6)">
+                    <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">Generation</text>
+                </g>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="98.134" y="140.834" width="105.578" height="40.089" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,285.534,320.712)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Generate</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,261.087,357.301)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">P</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,274.363,367.453)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,284.682,357.301)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,307.442,357.301)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">P</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,320.718,367.453)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,331.037,357.301)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="98.134" y="212.341" width="105.578" height="40.089" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,261.087,485.317)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">P</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,274.363,495.47)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,284.682,485.317)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,307.442,485.317)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">P</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,320.718,495.47)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,331.037,485.317)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="98.679" y="263.864" width="105.578" height="17.771" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,262.261,597.527)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">c</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,275.537,607.68)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,285.856,597.527)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,308.615,597.527)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">c</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,321.891,607.68)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,332.211,597.527)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="98.679" y="256.229" width="105.578" height="7.437" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,221.013,572.025)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Compute key challenges</text>
+            </g>
+            <g transform="matrix(2.15018,-0.00348457,0.00344028,2.17786,-1.00069,0.531615)">
+                <rect x="98.679" y="285.583" width="105.578" height="7.437" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,224.15,635.769)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Compute musig pubkey</text>
+            </g>
+            <g transform="matrix(2.15018,-0.00348457,0.00344028,2.17786,-1.07294,0.536189)">
+                <rect x="138.68" y="294.306" width="25.578" height="26.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,303.539,663.779)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">P</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,316.815,673.932)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">agg</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="222.722" y="135.586" width="105.579" height="17.771" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,528.975,318.155)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">k</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,542.251,328.309)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,552.57,318.155)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,575.33,318.155)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">k</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,588.606,328.309)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,598.925,318.155)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="222.722" y="127.951" width="105.579" height="7.437" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,518.302,292.654)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Generate nonces</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="222.722" y="158.305" width="105.579" height="7.437" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,505.834,358.761)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Derive nonce points</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="214.556" y="168.024" width="121.911" height="26.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,532.683,388.8)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,545.959,398.953)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,576.917,388.8)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,590.193,398.953)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="333" y="211.341" width="121.91" height="26.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,787.359,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,800.634,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,831.593,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,844.868,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="222.721" y="211.341" width="105.579" height="41.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,494.833,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">H(</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,517.593,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,530.869,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,541.188,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">), H(</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,598.087,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,611.363,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,621.682,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">), ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="340.043" y="270.968" width="105.579" height="44.137" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,761.433,604.124)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Agg</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,795.49,604.124)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">r</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,801.461,604.124)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">egate nonce R</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1012.03,604.124)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">aggr<tspan x="18px 22.833px " y="0px 0px ">eg</tspan>ates signatur<tspan x="79.677px 84.51px " y="0px 0px ">es</tspan></text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,754.265,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,767.542,650.865)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">agg</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,798.499,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, is_negated</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="222.721" y="270.968" width="105.579" height="44.137" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,498.077,604.124)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Receive commitments</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,494.833,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">H(</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,517.593,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,530.869,650.865)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,541.188,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">), H(</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,598.087,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">R</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,611.363,650.865)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,621.682,640.712)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">), ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="456" y="147.834" width="116" height="25.334" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1018.45,335.957)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Generate signatur<tspan x="71.676px 76.509px " y="0px 0px ">es</tspan></text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1015.22,372.546)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">sig</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,1055.04,382.698)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1065.36,372.546)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1088.12,372.546)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">sig</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,1127.95,382.698)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1138.27,372.546)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="456" y="211.341" width="116" height="25.334" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1015.22,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">sig</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,1055.04,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">0</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1065.36,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">,</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1088.12,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">sig</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,1127.95,493.292)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">1</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1138.27,483.139)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:9px;">, ...</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="456.312" y="262.366" width="116" height="45.81" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1055.47,585.391)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">Coo</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1090.93,585.391)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">r</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1096.9,585.391)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:9px;">dinator</text>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1070.47,645.5)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">sig</text>
+            </g>
+            <g transform="matrix(1.2284,0,0,1.26969,1110.29,655.653)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:14px;">agg</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="336.545" y="79.126" width="118.577" height="15.332" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,764.818,189.476)">
+                <text x="0px" y="0px" style="font-family:'RobotoMono-Bold', 'Roboto Mono';font-weight:700;font-size:10.5px;">MuSig Signing</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M217.667,251.514L573.999,251.514" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1.2px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M217.667,187.923L573.999,187.923" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M94,251.514L209,251.514" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M94,187.923L209,187.923" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="231.722" y="109.186" width="87.579" height="15.833" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,582.732,254.896)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-BoldItalic', 'Helvetica Neue';font-weight:700;font-style:italic;font-size:11px;">1.</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="352.044" y="109.186" width="87.578" height="15.833" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,841.446,254.896)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-BoldItalic', 'Helvetica Neue';font-weight:700;font-style:italic;font-size:11px;">2.</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="469.522" y="109.186" width="87.578" height="15.833" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,1094.05,254.896)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-BoldItalic', 'Helvetica Neue';font-weight:700;font-style:italic;font-size:11px;">3.</text>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M209,313.104C209,314.204 208.1,315.104 207,315.104L96,315.104C94.9,315.104 94,314.204 94,313.104L94,126.333C94,125.233 94.9,124.333 96,124.333L207,124.333C208.1,124.333 209,125.233 209,126.333L209,313.104Z" style="fill:none;fill-rule:nonzero;stroke:rgb(120,120,120);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M573.999,313.104C573.999,314.204 573.099,315.104 571.999,315.104L219.667,315.104C218.567,315.104 217.667,314.204 217.667,313.104L217.667,126.333C217.667,125.233 218.567,124.333 219.667,124.333L572,124.333C573.1,124.333 574,125.233 574,126.333L574,313.104L573.999,313.104Z" style="fill:none;fill-rule:nonzero;stroke:rgb(120,120,120);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M334,125.019L334,315.104" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M453.999,124.333L453.999,315.135" style="fill:none;fill-rule:nonzero;stroke:rgb(196,196,195);stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="9.995" y="153.834" width="87.577" height="31.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,72.3048,349.023)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Individual</text>
+                <g transform="matrix(1,0,0,1,-7.339,10.8)">
+                    <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Computation</text>
+                </g>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="9.995" y="275.468" width="87.577" height="31.667" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,72.3048,613.924)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Individual</text>
+                <g transform="matrix(1,0,0,1,-7.339,10.8)">
+                    <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Computation</text>
+                </g>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <rect x="13.278" y="214.219" width="81.011" height="36.333" style="fill:none;"/>
+            </g>
+            <g transform="matrix(2.10696,0,0,2.17786,65.2508,480.532)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Exchanged</text>
+                <g transform="matrix(1,0,0,1,13.833,10.8)">
+                    <text x="0px" y="0px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:9px;">Data</text>
+                </g>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M53.783,196.282L53.783,181.021" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M53.783,201.224L56.629,194.26L53.783,195.912L50.938,194.26L53.783,201.224Z" style="fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M53.783,257.813L53.783,242.552" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+            <g transform="matrix(2.15018,0,0,2.17786,0,0)">
+                <path d="M53.783,262.755L56.629,255.791L53.783,257.443L50.938,255.791L53.783,262.755Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
