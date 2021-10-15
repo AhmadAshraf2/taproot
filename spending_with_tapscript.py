@@ -3,6 +3,7 @@ from test_framework.address import program_to_witness
 from test_framework.key import generate_bip340_key_pair
 from test_framework.messages import CTxInWitness, ser_string, sha256
 from test_framework.script import hash160, SIGHASH_ALL_TAPROOT, tagged_hash, TapLeaf, TaprootSignatureHash, TapTree
+from test_framework.util import hex_str_to_bytes
 
 privkey_internal, pubkey_internal = generate_bip340_key_pair()
 privkey1, pubkey1 = generate_bip340_key_pair()
@@ -70,6 +71,7 @@ def sign_transaction(spending_tx, tx, tapscript):
     # Sign with both privkeys
     signature1 = privkey1.sign_schnorr(sighash)
     signature2 = privkey2.sign_schnorr(sighash)
+    # signature3 = privkey3.sign_schnorr(sighash)
 
     # print("Signature1: {}".format(signature1.hex()))
     # print("Signature2: {}".format(signature2.hex()))
@@ -78,6 +80,8 @@ def sign_transaction(spending_tx, tx, tapscript):
 
 
 def add_witness_and_test_transaction(test, spending_tx):
+    # sig3 = privkey3.sign_schnorr(hex_str_to_bytes("0000000000000000000000000000000000000000000000000000000000000000"))
+    # sig4 = privkey4.sign_schnorr(hex_str_to_bytes("0000000000000000000000000000000000000000000000000000000000000000"))
     node = test.nodes[0]
     witness_elements = [sig2, sig1, tapscript.script, control_map[tapscript.script]]
     spending_tx.wit.vtxinwit.append(CTxInWitness(witness_elements))
