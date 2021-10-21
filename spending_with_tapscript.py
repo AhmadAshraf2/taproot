@@ -14,6 +14,9 @@ privkey4, pubkey4 = generate_bip340_key_pair()
 
 def generate_tapscript():
     csa_tapscript = TapLeaf().construct_csa(2, [pubkey1, pubkey2, pubkey3, pubkey4])
+    print("Tapscript operations:")
+    for op in csa_tapscript.script:
+        print(op.hex()) if isinstance(op, bytes) else print(op)
     return csa_tapscript
 
 
@@ -30,12 +33,12 @@ def multisig_tapscript_address():
     taproot_pubkey = pubkey_internal.tweak_add(taptweak)
     taproot_pubkey_b = taproot_pubkey.get_bytes()
     program = taproot_pubkey_b
-    # print("Witness program is {}\n".format(program.hex()))
+    print("Witness program is {}\n".format(program.hex()))
 
     # Create (regtest) bech32m address
     version = 0x01
     address = program_to_witness(1, program)
-    # print("bech32m address is {}".format(address))
+    print("bech32m address is {}".format(address))
     return address, tapscript
 
 
@@ -71,19 +74,20 @@ def sign_transaction(spending_tx, tx, tapscript):
     # Sign with both privkeys
     signature1 = privkey1.sign_schnorr(sighash)
     signature2 = privkey2.sign_schnorr(sighash)
-    # signature3 = privkey3.sign_schnorr(sighash)
+    signature3 = privkey3.sign_schnorr(sighash)
 
-    # print("Signature1: {}".format(signature1.hex()))
-    # print("Signature2: {}".format(signature2.hex()))
+    print("Signature1: {}".format(signature1.hex()))
+    print("Signature2: {}".format(signature2.hex()))
+    print("Signature3: {}".format(signature3.hex()))
 
-    return signature1, signature2
+    return signature1, signature2, signature3
 
 
 def add_witness_and_test_transaction(test, spending_tx):
     # sig3 = privkey3.sign_schnorr(hex_str_to_bytes("0000000000000000000000000000000000000000000000000000000000000000"))
     # sig4 = privkey4.sign_schnorr(hex_str_to_bytes("0000000000000000000000000000000000000000000000000000000000000000"))
     node = test.nodes[0]
-    witness_elements = [sig2, sig1, tapscript.script, control_map[tapscript.script]]
+    witness_elements = ["".encode(), sig3, sig2, sig1, tapscript.script, control_map[tapscript.script]]
     spending_tx.wit.vtxinwit.append(CTxInWitness(witness_elements))
 
     print("Spending transaction:\n{}\n".format(spending_tx))
@@ -97,6 +101,6 @@ taptree = TapTree(key=pubkey_internal, root=tapscript)
 _, _, control_map = taptree.construct()
 test, tx = start_node_send_coins(address)
 spending_tx = construct_c_transaction(test, tx)
-sig1, sig2 = sign_transaction(spending_tx, tx, tapscript)
+sig1, sig2, sig3 = sign_transaction(spending_tx, tx, tapscript)
 add_witness_and_test_transaction(test, spending_tx)
 test.shutdown()

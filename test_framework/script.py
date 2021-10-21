@@ -1394,10 +1394,14 @@ class miniscript:
 
     @staticmethod # TODO:
     def thresh_csa(k, *args): #arg[0] = k, arg[i>0] = expr_i
+        vote = [2,3,4,2]
         assert(k > 0 and k <= len(args) and len(args) > 1) # Requires more than 1 pk.
         for key in args:
             assert(len(key) == 32)
-        script = lambda x: [args[0], OP_CHECKSIG] + list(itertools.chain.from_iterable([[args[i], OP_CHECKSIGADD] for i in range(1,len(args))])) + [k, OP_NUMEQUAL]
+        # script = lambda x: [args[0], OP_CHECKSIG] + list(itertools.chain.from_iterable([[args[i], OP_CHECKSIGADD] for i in range(1,len(args))])) + [k, OP_NUMEQUAL]
+        script = lambda x:  [args[0], OP_CHECKSIG, OP_IF, vote[0], OP_ELSE, 1, OP_ENDIF] + list(itertools.chain.from_iterable(
+            [[OP_SWAP, args[i], OP_CHECKSIG, OP_IF, vote[i], OP_ADD, OP_ENDIF] for i in range(1, len(args))]
+        )) + [int(sum(vote) * 2/3), OP_GREATERTHAN]
         nsat = lambda x: [0x00]*len(args)
         sat_xy = lambda x: [('sig', args[i]) for i in range(0,len(args))][::-1] # TODO: ('thresh(n)', [('sig', (0x02../0x00)), ('sig', (0x02../0x00))])
         sat_z = lambda x: [False]
